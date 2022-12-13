@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    ports:
+      - "80:80"
+    volumes:
+      - .:usr/local/apache2/htdocs/
+  apache:
+    image: "httpd:2.4"
